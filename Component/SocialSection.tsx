@@ -1,6 +1,5 @@
 import React from "react";
 import { FaLinkedinIn, FaInstagram, FaFacebookF, FaGit } from "react-icons/fa";
-import Rocket2 from "../public/Image/sourav gupta (2).png";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -14,7 +13,12 @@ function SocialSection() {
             I am happy to discuss a eye-catching project to your needs. You can
             find me on below social media platforms/ professional platforms.
           </p>
-          <Image src={Rocket2} alt="souravwebart" width={300} height={130} />
+          <Image
+            src="../public/Image/sourav gupta (2).png"
+            alt="souravwebart"
+            width={300}
+            height={130}
+          />
         </div>
         <div className="social_section_grid">
           <div className="social-media-platform">

@@ -1,8 +1,5 @@
 import React, { useState } from "react";
 import Image from "next/image";
-import Email from "../public/images/email (1).png";
-import WhatsApp from "../public/images/whatsapp (1).png";
-import Telegram from "../public/images/telegram (1).png";
 import { BsFillPencilFill, BsGlobe, BsSearch } from "react-icons/bs";
 
 function contactUs() {
@@ -19,7 +16,12 @@ function contactUs() {
                 <div className="contact-row">
                   <div>
                     {" "}
-                    <Image src={Email} alt={"email"} width={20} height={20} />
+                    <Image
+                      src="../public/images/email (1).png"
+                      alt={"email"}
+                      width={20}
+                      height={20}
+                    />
                   </div>
                   <div style={{ marginLeft: "10px" }}>
                     <h1 className="contactcardh1">For any queries</h1>
@@ -36,7 +38,7 @@ function contactUs() {
                 <div className="contact-row">
                   <div>
                     <Image
-                      src={WhatsApp}
+                      src="../public/images/whatsapp (1).png"
                       alt={"WhatsApp"}
                       width={20}
                       height={20}
@@ -59,7 +61,7 @@ function contactUs() {
                 <div className="contact-row">
                   <div>
                     <Image
-                      src={Telegram}
+                      src="../public/images/telegram (1).png"
                       alt={"Telegram"}
                       width={20}
                       height={20}

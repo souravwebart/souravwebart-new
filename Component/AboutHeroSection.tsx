@@ -1,7 +1,5 @@
 import React from "react";
 import Image from "next/image";
-import SouravWebArt from "../public/Image/souravwebart (3).png";
-import Rocket2 from "../public/Image/souravsign (2).png";
 
 function AboutHeroSection() {
   return (
@@ -15,7 +13,7 @@ function AboutHeroSection() {
             <div className="col-12 col-xl-6 col-lg-6 col-md-12 col-sm-12">
               <div className="About_sourav_Image">
                 <Image
-                  src={SouravWebArt}
+                  src="../public/Image/souravwebart (3).png"
                   alt={"sourav Gupta"}
                   width={600}
                   height={600}
@@ -39,7 +37,7 @@ function AboutHeroSection() {
                 </p>
                 <div className="sourav_signature">
                   <Image
-                    src={Rocket2}
+                    src="../public/Image/souravsign (2).png"
                     alt="souravwebart"
                     width={200}
                     height={50}

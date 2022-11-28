@@ -1,7 +1,6 @@
 import React from "react";
 
 import Image from "next/image";
-import Rocket2 from "../public/Image/sourav gupta (2).png";
 import Link from "next/link";
 
 function HomeComponent() {
@@ -44,7 +43,12 @@ function HomeComponent() {
         style={{ bottom: 0, right: "20px", position: "absolute" }}
         className="moving-rocket"
       >
-        <Image src={Rocket2} alt="souravwebart" width={300} height={200} />
+        <Image
+          src="../public/Image/sourav gupta (2).png"
+          alt="souravwebart"
+          width={300}
+          height={200}
+        />
       </div>
     </div>
   );

@@ -1,9 +1,5 @@
 import Image from "next/image";
 import React from "react";
-import Frontend1 from "../public/Image/frontend.png";
-import Frontend2 from "../public/Image/frontend (1).png";
-import Frontend3 from "../public/Image/frontend (2).png";
-import Frontend4 from "../public/Image/frontend (3).png";
 import { AiFillRightCircle } from "react-icons/ai";
 
 function AboutSectionStack() {
@@ -82,7 +78,7 @@ function AboutSectionStack() {
               <div className="card">
                 <div className="card-block">
                   <Image
-                    src={Frontend1}
+                    src="../public/Image/frontend.png"
                     alt={"frontend"}
                     width={300}
                     height={300}
@@ -92,7 +88,7 @@ function AboutSectionStack() {
               <div className="card">
                 <div className="card-block">
                   <Image
-                    src={Frontend2}
+                    src="../public/Image/frontend (1).png"
                     alt={"frontend"}
                     width={300}
                     height={300}
@@ -104,7 +100,7 @@ function AboutSectionStack() {
               <div className="card">
                 <div className="card-block">
                   <Image
-                    src={Frontend3}
+                    src="../public/Image/frontend (2).png"
                     alt={"frontend"}
                     width={300}
                     height={300}
@@ -114,7 +110,7 @@ function AboutSectionStack() {
               <div className="card">
                 <div className="card-block">
                   <Image
-                    src={Frontend4}
+                    src="../public/Image/frontend (3).png"
                     alt={"frontend"}
                     width={300}
                     height={300}

@@ -34,7 +34,12 @@ function companyCard(Props: Props) {
         </div>
       </div>
       <div style={{ position: "absolute", bottom: -7, right: 0, opacity: 0.5 }}>
-        <Image src={BG} alt="bg" height={150} width={200} />
+        <Image
+          src="../../public/Image/bg.png"
+          alt="bg"
+          height={150}
+          width={200}
+        />
       </div>
     </div>
   );

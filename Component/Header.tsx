@@ -1,8 +1,6 @@
 import React, { useState } from "react";
 import Image from "next/image";
-import BG from "./Image/bg.png";
 import { BsFilterRight, BsXLg } from "react-icons/bs";
-import Logo from "../public/Image/souravwebart.png";
 import Link from "next/link";
 
 function Header() {
@@ -25,7 +23,12 @@ function Header() {
           }}
         >
           <Link href="/">
-            <Image src={Logo} alt="souravwebart" width={150} height={50} />
+            <Image
+              src="../public/Image/souravwebart.png"
+              alt="souravwebart"
+              width={150}
+              height={50}
+            />
           </Link>
         </div>
         <input type="checkbox" id="active" onClick={openMenu} />

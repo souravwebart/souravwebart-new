@@ -1,6 +1,5 @@
 import Image from "next/image";
 import React from "react";
-import TestiImage from "../public/Image/Aashirvad-Kumar.png";
 import { FaQuoteLeft } from "react-icons/fa";
 
 function Testimonal() {
@@ -10,7 +9,7 @@ function Testimonal() {
         <div className="testimonial_avatar">
           <div style={{ marginBottom: "-6px" }}>
             <Image
-              src={TestiImage}
+              src="../public/Image/Aashirvad-Kumar.png"
               alt={"Aashirvad-Kumar"}
               width={400}
               height={350}
