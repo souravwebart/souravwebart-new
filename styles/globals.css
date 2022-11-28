@@ -1201,4 +1201,13 @@ input[type="checkbox"] {
   .contact_us_right {
     margin-bottom: 80px !important;
   }
+  .footer-top h1 {
+    color: #ded0ff;
+    font-size: 2rem;
+    font-weight: 800;
+    line-height: 41px;
+    font-family: "poppins";
+    text-align: left;
+    padding: 0px 0px 7px 0px;
+  }
 }
