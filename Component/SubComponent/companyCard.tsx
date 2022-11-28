@@ -1,6 +1,5 @@
 import React from "react";
 import Image from "next/image";
-import BG from "../../public/Image/bg.png";
 
 interface Props {
   item: companyInterface;
@@ -34,12 +33,7 @@ function companyCard(Props: Props) {
         </div>
       </div>
       <div style={{ position: "absolute", bottom: -7, right: 0, opacity: 0.5 }}>
-        <Image
-          src="../../public/Image/bg.png"
-          alt="bg"
-          height={150}
-          width={200}
-        />
+        <Image src="/bg.png" alt="bg" height={150} width={200} />
       </div>
     </div>
   );
