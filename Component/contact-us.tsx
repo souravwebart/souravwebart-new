@@ -17,7 +17,7 @@ function contactUs() {
                   <div>
                     {" "}
                     <Image
-                      src="../public/images/email (1).png"
+                      src="/email (1).png"
                       alt={"email"}
                       width={20}
                       height={20}
@@ -38,7 +38,7 @@ function contactUs() {
                 <div className="contact-row">
                   <div>
                     <Image
-                      src="../public/images/whatsapp (1).png"
+                      src="/whatsapp (1).png"
                       alt={"WhatsApp"}
                       width={20}
                       height={20}
@@ -61,7 +61,7 @@ function contactUs() {
                 <div className="contact-row">
                   <div>
                     <Image
-                      src="../public/images/telegram (1).png"
+                      src="/telegram (1).png"
                       alt={"Telegram"}
                       width={20}
                       height={20}

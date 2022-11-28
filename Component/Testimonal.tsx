@@ -9,7 +9,7 @@ function Testimonal() {
         <div className="testimonial_avatar">
           <div style={{ marginBottom: "-6px" }}>
             <Image
-              src="../public/Image/Aashirvad-Kumar.png"
+              src="/Aashirvad-Kumar.png"
               alt={"Aashirvad-Kumar"}
               width={400}
               height={350}

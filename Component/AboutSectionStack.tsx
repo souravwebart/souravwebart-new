@@ -78,7 +78,7 @@ function AboutSectionStack() {
               <div className="card">
                 <div className="card-block">
                   <Image
-                    src="../public/Image/frontend.png"
+                    src="/frontend.png"
                     alt={"frontend"}
                     width={300}
                     height={300}
@@ -88,7 +88,7 @@ function AboutSectionStack() {
               <div className="card">
                 <div className="card-block">
                   <Image
-                    src="../public/Image/frontend (1).png"
+                    src="/frontend (1).png"
                     alt={"frontend"}
                     width={300}
                     height={300}
@@ -100,7 +100,7 @@ function AboutSectionStack() {
               <div className="card">
                 <div className="card-block">
                   <Image
-                    src="../public/Image/frontend (2).png"
+                    src="/frontend (2).png"
                     alt={"frontend"}
                     width={300}
                     height={300}
@@ -110,7 +110,7 @@ function AboutSectionStack() {
               <div className="card">
                 <div className="card-block">
                   <Image
-                    src="../public/Image/frontend (3).png"
+                    src="/frontend (3).png"
                     alt={"frontend"}
                     width={300}
                     height={300}

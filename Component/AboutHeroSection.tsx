@@ -13,7 +13,7 @@ function AboutHeroSection() {
             <div className="col-12 col-xl-6 col-lg-6 col-md-12 col-sm-12">
               <div className="About_sourav_Image">
                 <Image
-                  src="../public/Image/souravwebart (3).png"
+                  src="/souravwebart (3).png"
                   alt={"sourav Gupta"}
                   width={600}
                   height={600}
@@ -37,7 +37,7 @@ function AboutHeroSection() {
                 </p>
                 <div className="sourav_signature">
                   <Image
-                    src="../public/Image/souravsign (2).png"
+                    src="/souravsign (2).png"
                     alt="souravwebart"
                     width={200}
                     height={50}

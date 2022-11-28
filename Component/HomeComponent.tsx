@@ -44,7 +44,7 @@ function HomeComponent() {
         className="moving-rocket"
       >
         <Image
-          src="../public/Image/sourav gupta (2).png"
+          src="/sourav gupta (2).png"
           alt="souravwebart"
           width={300}
           height={200}

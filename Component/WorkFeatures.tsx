@@ -11,8 +11,11 @@ function WorkFeatures() {
         <h1>Work for Top Companies</h1>
         <div className="top_company_section">
           <div className="company-logo">
+            <Image src="/iifl.png" alt="souravwebart" width={150} height={75} />
+          </div>
+          <div className="company-logo">
             <Image
-              src="../public/Image/iifl.png"
+              src="/fedaral.png"
               alt="souravwebart"
               width={150}
               height={75}
@@ -20,7 +23,7 @@ function WorkFeatures() {
           </div>
           <div className="company-logo">
             <Image
-              src="../public/Image/fedaral.png"
+              src="/scale.png"
               alt="souravwebart"
               width={150}
               height={75}
@@ -28,7 +31,7 @@ function WorkFeatures() {
           </div>
           <div className="company-logo">
             <Image
-              src="../public/Image/scale.png"
+              src="/eatsure.png"
               alt="souravwebart"
               width={150}
               height={75}
@@ -36,7 +39,7 @@ function WorkFeatures() {
           </div>
           <div className="company-logo">
             <Image
-              src="../public/Image/eatsure.png"
+              src="/AArtisto (1).png"
               alt="souravwebart"
               width={150}
               height={75}
@@ -44,15 +47,7 @@ function WorkFeatures() {
           </div>
           <div className="company-logo">
             <Image
-              src="../public/Image/AArtisto (1).png"
-              alt="souravwebart"
-              width={150}
-              height={75}
-            />
-          </div>
-          <div className="company-logo">
-            <Image
-              src="../public/Image/civilworks.png"
+              src="/civilworks.png"
               alt="souravwebart"
               width={150}
               height={75}

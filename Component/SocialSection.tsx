@@ -14,7 +14,7 @@ function SocialSection() {
             find me on below social media platforms/ professional platforms.
           </p>
           <Image
-            src="../public/Image/sourav gupta (2).png"
+            src="/sourav gupta (2).png"
             alt="souravwebart"
             width={300}
             height={130}
