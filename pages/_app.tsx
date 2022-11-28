@@ -15,7 +15,7 @@ function MyApp({ Component, pageProps }: AppProps) {
           rel="icon"
           type="image/png"
           sizes="16x16"
-          href="../public/images/favicon-16x16.png"
+          href="/favicon-16x16.png"
         />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link
