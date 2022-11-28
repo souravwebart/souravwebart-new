@@ -1,9 +1,7 @@
 import React from "react";
 
-import { fadeInLeft } from "react-animations";
 import Image from "next/image";
-import Rocket1 from "./Image/globe.png";
-import Rocket2 from "./Image/sourav gupta (2).png";
+import Rocket2 from "../public/Image/sourav gupta (2).png";
 import Link from "next/link";
 
 function HomeComponent() {

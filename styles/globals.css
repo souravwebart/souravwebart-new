@@ -71,7 +71,7 @@ a {
 }
 .hometop {
   background: rgb(18, 0, 17);
-  background: url("../Component/Image/souravwebfrontend\ \(3\).png"),
+  background: url("../public/Image/souravwebfrontend\ \(3\).png"),
     linear-gradient(11deg, rgb(1, 20, 43) -11%, rgb(0 0 0) 100%);
   background-repeat: no-repeat;
   background-size: cover;

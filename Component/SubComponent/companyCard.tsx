@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import BG from "../Image/bg.png";
+import BG from "../../public/Image/bg.png";
 
 interface Props {
   item: companyInterface;

@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
-import SouravWebArt from "../Component/Image/souravwebart (3).png";
-import Rocket2 from "./Image/souravsign (2).png";
+import SouravWebArt from "../public/Image/souravwebart (3).png";
+import Rocket2 from "../public/Image/souravsign (2).png";
 
 function AboutHeroSection() {
   return (

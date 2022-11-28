@@ -1,6 +1,6 @@
 import React from "react";
 import { FaLinkedinIn, FaInstagram, FaFacebookF, FaGit } from "react-icons/fa";
-import Rocket2 from "./Image/sourav gupta (2).png";
+import Rocket2 from "../public/Image/sourav gupta (2).png";
 import Image from "next/image";
 import Link from "next/link";
 

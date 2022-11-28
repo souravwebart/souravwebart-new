@@ -1,9 +1,9 @@
 import Image from "next/image";
 import React from "react";
-import Frontend1 from "./Image/frontend.png";
-import Frontend2 from "./Image/frontend (1).png";
-import Frontend3 from "./Image/frontend (2).png";
-import Frontend4 from "./Image/frontend (3).png";
+import Frontend1 from "../public/Image/frontend.png";
+import Frontend2 from "../public/Image/frontend (1).png";
+import Frontend3 from "../public/Image/frontend (2).png";
+import Frontend4 from "../public/Image/frontend (3).png";
 import { AiFillRightCircle } from "react-icons/ai";
 
 function AboutSectionStack() {

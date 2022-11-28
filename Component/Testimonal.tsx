@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import TestiImage from "./Image/Aashirvad-Kumar.png";
+import TestiImage from "../public/Image/Aashirvad-Kumar.png";
 import { FaQuoteLeft } from "react-icons/fa";
 
 function Testimonal() {

@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import Image from "next/image";
 import BG from "./Image/bg.png";
 import { BsFilterRight, BsXLg } from "react-icons/bs";
-import Logo from "./Image/souravwebart.png";
+import Logo from "../public/Image/souravwebart.png";
 import Link from "next/link";
 
 function Header() {
