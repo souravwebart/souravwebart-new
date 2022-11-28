@@ -11,7 +11,12 @@ function MyApp({ Component, pageProps }: AppProps) {
       <Head>
         <title>SouravWebArt - FrontEnd Web developer</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
-        <link rel="icon" type="image/png" sizes="16x16" href="/favicon.io" />
+        <link
+          rel="icon"
+          type="image/png"
+          sizes="16x16"
+          href="/favicon-16x16.png"
+        />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link
           rel="preconnect"
