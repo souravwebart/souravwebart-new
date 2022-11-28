@@ -4,7 +4,7 @@ const nextConfig = {
   swcMinify: true,
   images: {
     loader: "akamai",
-    path: "/",
+    path: "https://souravwebart-3q4hwcqzt-souravwebart.vercel.app/",
   },
 }
 
