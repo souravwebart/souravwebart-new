@@ -1100,10 +1100,10 @@ input[type="checkbox"] {
   .company-logo {
     width: 100px;
   }
-  .top-company::-webkit-scrollbar {
+  .top_company_section::-webkit-scrollbar {
     display: none;
   }
-  .top-company {
+  .top_company_section {
     background-color: #efefef;
     padding: 20px 0px;
     scroll-behavior: smooth;
