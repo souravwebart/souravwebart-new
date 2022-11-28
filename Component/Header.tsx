@@ -24,7 +24,7 @@ function Header() {
         >
           <Link href="/">
             <Image
-              src="/souravwebart.png"
+              src="/Souravwebart.png"
               alt="souravwebart"
               width={150}
               height={50}
