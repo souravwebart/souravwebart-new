@@ -57,7 +57,7 @@ const CompanyList = [
     id: 10,
     name: "Thumbstack Technologies",
     imgURL: "./images/thumbstack.png",
-    title: "HTML Developer",
+    title: "Front-end Developer",
   },
   {
     id: 11,
