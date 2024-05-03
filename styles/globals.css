@@ -165,7 +165,7 @@ a {
 	background-image: linear-gradient(281deg, #1e1c57, #38236f 42%, #5c2d91);
 	clip-path: circle(0px at calc(100% - 45px) 45px);
 	transition: all 0.3s ease-in-out;
-	z-index: 200;
+	z-index: 9999;
 	-webkit-animation: wrapgrad 1s ease infinite;
 	animation: wrapgrad 1s ease infinite;
 	border-radius: min(2.2vw, 31.68px) 0 0 min(2.2vw, 31.68px);
