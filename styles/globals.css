@@ -1088,7 +1088,7 @@ input[type='checkbox'] {
 		color: #fff;
 		font-family: 'DM Sans', sans-serif;
 		font-weight: 700;
-		line-height: 31px;
+		line-height: 50px;
 		min-width: calc(100% - 4rem);
 	}
 	.Topheading p {
@@ -1096,7 +1096,7 @@ input[type='checkbox'] {
 		color: #fff;
 		font-family: 'DM Sans', sans-serif;
 		font-weight: 700;
-		line-height: 31px;
+		line-height: 50px;
 		width: 80%;
 		margin-top: -30px;
 	}
