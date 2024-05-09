@@ -7,6 +7,9 @@ html {
 body {
 	padding: 0;
 	margin: 0;
+	background-image: url('../public/2.png');
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
 a {
@@ -79,6 +82,16 @@ a {
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: top;
+	margin-top: 50px;
+}
+.aboutHero_start {
+	background: rgb(18, 0, 17);
+	background: url('../public/aboutsouravgupta.png'),
+		linear-gradient(11deg, rgb(1, 20, 43) -11%, rgb(0 0 0) 100%);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top;
+	height: 95vh;
 	margin-top: 50px;
 }
 .header__hero--cta {
@@ -1071,6 +1084,12 @@ input[type='checkbox'] {
 	font-family: 'DM Sans', sans-serif;
 	font-weight: 600;
 }
+.subtopheading1 {
+	font-size: 5rem;
+	color: #fff;
+	font-family: 'DM Sans', sans-serif;
+	font-weight: 600;
+}
 .Topheading p {
 	font-size: 3rem;
 	color: #fff;
@@ -1082,6 +1101,22 @@ input[type='checkbox'] {
 .testimonial_section_details {
 	display: flex;
 }
+.stack_grid {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+}
+.stack_grid p {
+	min-height: 245px;
+}
+@media screen and (max-width: 1280px) {
+	.stack_grid p {
+		min-height: 50px;
+	}
+	.stack_grid {
+		display: grid;
+		grid-template-columns: 1fr;
+	}
+}
 @media screen and (max-width: 666px) {
 	.Topheading h1 {
 		font-size: 1rem;
@@ -1090,6 +1125,9 @@ input[type='checkbox'] {
 		font-weight: 700;
 		line-height: 50px;
 		min-width: calc(100% - 4rem);
+	}
+	.subtopheading1 {
+		font-size: 2rem;
 	}
 	.Topheading p {
 		font-size: 1.2rem;
