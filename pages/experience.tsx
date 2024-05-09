@@ -14,7 +14,7 @@ import Neepco from '../public/images/neepco.png';
 import Twenty19 from '../public/images/twenty19.png';
 import JungliDonkey from '../public/images/junglidonkey.png';
 import TruckPaPa from '../public/images/truckpapa.jpg';
-import Nearbuy from '../public/images/nearbuy.png';
+import Nearbuy from '../public/images/near.png';
 import PWD from '../public/images/pwd.jpg';
 import Ongc from '../public/images/ongc.png';
 
