@@ -64,6 +64,11 @@ function Header() {
 									</Link>
 								</li>
 								<li>
+									<Link href='/experience'>
+										<a className='Gradiant-heading'>Experience</a>
+									</Link>
+								</li>
+								<li>
 									<Link href='/project'>
 										<a className='Gradiant-heading'>Projects</a>
 									</Link>

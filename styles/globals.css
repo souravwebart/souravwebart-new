@@ -1108,7 +1108,19 @@ input[type='checkbox'] {
 .stack_grid p {
 	min-height: 245px;
 }
+.experience_card {
+	display: grid;
+	grid-template-columns: 1fr 2fr 1fr;
+	justify-content: space-between;
+	vertical-align: middle;
+}
 @media screen and (max-width: 1280px) {
+	.box1 {
+		text-align: left !important;
+	}
+	.box1 p {
+		text-align: left !important;
+	}
 	.stack_grid p {
 		min-height: 50px;
 	}
@@ -1118,6 +1130,9 @@ input[type='checkbox'] {
 	}
 }
 @media screen and (max-width: 666px) {
+	.experience_card {
+		display: block;
+	}
 	.Topheading h1 {
 		font-size: 1rem;
 		color: #fff;
@@ -1125,6 +1140,10 @@ input[type='checkbox'] {
 		font-weight: 700;
 		line-height: 50px;
 		min-width: calc(100% - 4rem);
+	}
+	.box3 h2 {
+		text-align: left;
+		margin: 10px auto 10px 0px !important;
 	}
 	.subtopheading1 {
 		font-size: 2rem;
