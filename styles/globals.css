@@ -1137,7 +1137,7 @@ input[type='checkbox'] {
 @media screen and (max-width: 666px) {
 	.project_card_details {
 		display: block;
-		padding: 40px;
+		padding: 30px 10px !important;
 	}
 	.experience_card {
 		display: block;
