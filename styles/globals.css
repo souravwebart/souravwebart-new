@@ -819,7 +819,7 @@ input[type='checkbox'] {
 	padding: 200px 15px 160px 0px;
 	margin: auto;
 	vertical-align: middle;
-	border-radius: 0 0 min(2.2vw, 31.68px) min(2.2vw, 31.68px);
+	border-radius: min(2.2vw, 31.68px);
 	text-align: center;
 }
 .project_container h1 {
@@ -1129,7 +1129,16 @@ input[type='checkbox'] {
 		grid-template-columns: 1fr;
 	}
 }
+.project_card_details {
+	display: grid;
+	grid-template-columns: 1fr 2fr;
+	padding: 40px;
+}
 @media screen and (max-width: 666px) {
+	.project_card_details {
+		display: block;
+		padding: 40px;
+	}
 	.experience_card {
 		display: block;
 	}
