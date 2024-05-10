@@ -816,7 +816,7 @@ input[type='checkbox'] {
 }
 .project_container {
 	background-color: #f56e28;
-	padding: 200px 15px 160px 0px;
+	padding: 200px 15px 160px 15px;
 	margin: auto;
 	vertical-align: middle;
 	border-radius: min(2.2vw, 31.68px);
