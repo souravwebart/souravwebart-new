@@ -46,7 +46,7 @@ function experience() {
 			title: 'Front-End Development (Full-Time)',
 			desc: '1. Worked on projects using React.Js and Next.js. Worked on HTML, CSS, JavaScript, Typescript, and more. Working On API Integration. Coordinating with the Backend Developer. Made various Websites using WordPress based on Figma Design. Analyze market trends and user feedback to plan and optimize the website layout.2. Deliver high-quality, on-brand graphics to support a superior customer experience. Maintain a set of best design practices and guidelines to reduce and minimize production efforts. Produce creative assets including graphics, templates, and layouts, and visual standards for marketing activities across multiple channels.',
 			logo: Thumbstack,
-			date: 'JDec 2021 - Jul 2023',
+			date: 'Dec 2021 - Jul 2023',
 			company: 'Thumbstack Technologies',
 		},
 		{
