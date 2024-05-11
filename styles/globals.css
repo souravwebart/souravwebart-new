@@ -1135,6 +1135,15 @@ input[type='checkbox'] {
 	padding: 40px;
 }
 @media screen and (max-width: 666px) {
+	.top_company_section::-webkit-scrollbar {
+		display: none;
+	}
+	.top_company_section {
+		scroll-behavior: smooth;
+		overflow-x: scroll;
+		-ms-overflow-style: none;
+		scrollbar-width: none;
+	}
 	.project_card_details {
 		display: block;
 		padding: 30px 10px !important;
@@ -1194,16 +1203,16 @@ input[type='checkbox'] {
 	.company-logo {
 		width: 100px;
 	}
-	.top-company::-webkit-scrollbar {
+	/* .top-company::-webkit-scrollbar {
 		display: none;
-	}
+	} */
 	.top-company {
 		background-color: #efefef;
 		padding: 20px 0px;
-		scroll-behavior: smooth;
+		/* scroll-behavior: smooth;
 		overflow-x: scroll;
 		-ms-overflow-style: none;
-		scrollbar-width: none;
+		scrollbar-width: none; */
 	}
 	.hero_about_section_description p {
 		text-decoration: none;
