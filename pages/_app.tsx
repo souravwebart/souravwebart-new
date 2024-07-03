@@ -6,14 +6,10 @@ import Head from 'next/head';
 import Header from '../Component/Header';
 import Footer from '../Component/SubComponent/Footer';
 import NextNProgress from 'nextjs-progressbar';
-import { GA_TRACKING_ID, initGA } from '../lib/gtag';
 import { useEffect } from 'react';
 import Script from 'next/script';
 
 function MyApp({ Component, pageProps }: AppProps) {
-	useEffect(() => {
-		initGA();
-	}, []);
 	return (
 		<>
 			<Script
@@ -57,24 +53,6 @@ function MyApp({ Component, pageProps }: AppProps) {
 					crossOrigin='anonymous'
 				/>
 			</Head>
-			<Script
-				src={`https://www.googletagmanager.com/gtag/js?id=${GA_TRACKING_ID}`}
-				strategy='afterInteractive'
-			/>
-			<Script
-				id='google-analytics'
-				strategy='afterInteractive'
-				dangerouslySetInnerHTML={{
-					__html: `
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
-          gtag('config', '${GA_TRACKING_ID}', {
-            page_path: window.location.pathname,
-          });
-        `,
-				}}
-			/>
 			<Header />
 			<NextNProgress color='#A72CF3' />
 			<Component {...pageProps} />
