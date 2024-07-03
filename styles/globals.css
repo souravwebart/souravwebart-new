@@ -1135,6 +1135,9 @@ input[type='checkbox'] {
 	padding: 40px;
 }
 @media screen and (max-width: 666px) {
+	.hometop {
+		min-height: 110vh !important;
+	}
 	.top_company_section::-webkit-scrollbar {
 		display: none;
 	}
