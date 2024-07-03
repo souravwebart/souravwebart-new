@@ -2,7 +2,7 @@ const fs = require('fs');
 const path = require('path');
 
 // Define the base URL of your site
-const baseUrl = 'https://www.souravwebart.in/';
+const baseUrl = 'https://www.souravwebart.in';
 
 // Function to generate sitemap XML
 function generateSitemap() {
