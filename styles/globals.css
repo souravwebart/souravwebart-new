@@ -77,7 +77,7 @@ a {
 }
 .hometop {
 	background: rgb(18, 0, 17);
-	background: url('../public/souravgupta\ \(3\).png'),
+	background: url('../public/souravwebarthome.png'),
 		linear-gradient(11deg, rgb(1, 20, 43) -11%, rgb(0 0 0) 100%);
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -86,7 +86,7 @@ a {
 }
 .aboutHero_start {
 	background: rgb(18, 0, 17);
-	background: url('../public/aboutsouravgupta.png'),
+	background: url('../public/souravweb.png'),
 		linear-gradient(11deg, rgb(1, 20, 43) -11%, rgb(0 0 0) 100%);
 	background-repeat: no-repeat;
 	background-size: cover;
