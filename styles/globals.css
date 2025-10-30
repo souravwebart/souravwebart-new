@@ -44,8 +44,8 @@ a {
 		color-scheme: dark;
 	}
 	body {
-		color: white;
-		background: black;
+		color: rgb(0, 0, 0);
+		background: rgb(255, 255, 255);
 	}
 }
 .Gradiant-heading span {
@@ -580,7 +580,7 @@ input[type='checkbox'] {
 	counter-reset: li;
 	list-style: none;
 	list-style: decimal;
-	font: 15px 'trebuchet MS', 'lucida sans';
+	font: 0px 'trebuchet MS', 'lucida sans';
 	padding: 0;
 	margin-bottom: 4em;
 }
