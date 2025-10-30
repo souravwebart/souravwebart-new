@@ -44,8 +44,8 @@ a {
 		color-scheme: dark;
 	}
 	body {
-		color: rgb(0, 0, 0);
-		background: rgb(255, 255, 255);
+		color: rgb(0, 0, 0) !important;
+		background: rgb(255, 255, 255) !important;
 	}
 }
 .Gradiant-heading span {
