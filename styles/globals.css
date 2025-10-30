@@ -581,7 +581,7 @@ input[type='checkbox'] {
 	list-style: none;
 	list-style: decimal;
 	font: 0px 'trebuchet MS', 'lucida sans';
-	padding: 0;
+	padding: 0px;
 	margin-bottom: 4em;
 }
 .numberlist ol ol {
